@@ -1,12 +1,12 @@
 import * as jose from 'jose'
 import axios from 'axios'
 
-const openidDiscoveryURI = 'https://login.microsoftonline.com/d2f6c0f3-9039-4a02-9e93-b489a6944a07/v2.0/.well-known/openid-configuration'
+const openidDiscoveryURI = 'https://login.microsoftonline.com/bdfee2d1-e1a2-48f9-bc73-f52ffee2db1d/v2.0/.well-known/openid-configuration'
 let JWKSUri = ''
 let JWKS = ''
 const jwtOptions = {
-    audience: 'api://26581cea-19ca-4e02-8e64-68676836db6c',
-    issuer: 'https://sts.windows.net/d2f6c0f3-9039-4a02-9e93-b489a6944a07/',
+    audience: 'api://f20cc733-eebf-463a-ab96-563ba859f21e',
+    issuer: 'https://sts.windows.net/bdfee2d1-e1a2-48f9-bc73-f52ffee2db1d/',
 }
 async function getJWKSUri() {
     await axios.get(openidDiscoveryURI).then((response) => {
