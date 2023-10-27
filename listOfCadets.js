@@ -40,11 +40,11 @@ class Cadets {
 }
 
 const phase3HuronData = JSON.parse(`
-[{"last_name":"Han","first_name":"Yumo","rank_en":"LC"},{"last_name":"Hu","first_name":"Yanfei","rank_en":"AC"},{"last_name":"Huang","first_name":"Linxi","rank_en":"LC"},{"last_name":"Huang","first_name":"Xian Da Henry","rank_en":"MC"},{"last_name":"Lai","first_name":"Joanna","rank_en":"MC"},{"last_name":"Li","first_name":"Mo Han Jermy","rank_en":"MC"},{"last_name":"Macheguem","first_name":"Constance Emma","rank_en":"LC"},{"last_name":"Salcedo Palta","first_name":"Juan David","rank_en":"LC"},{"last_name":"Shao","first_name":"Yichen Cally","rank_en":"MC"},{"last_name":"Wei","first_name":"Erqi","rank_en":"MC"},{"last_name":"Xu","first_name":"Chenfei","rank_en":"MC"},{"last_name":"Yang","first_name":"Victor-Yang","rank_en":"MC"},{"last_name":"Zhang","first_name":"Shaohang","rank_en":"MC"},{"last_name":"Zhu","first_name":"Yuchen","rank_en":"MC"}]
+[{"last_name":"Boisclair","first_name":"Yuri","rank_en":"OC"},{"last_name":"Cao","first_name":"Siyuan","rank_en":"OC"},{"last_name":"Lai","first_name":"Joanna","rank_en":"MC"},{"last_name":"Li","first_name":"Mo Han Jeremy","rank_en":"MC"},{"last_name":"Vincelli","first_name":"Alba","rank_en":"OC"},{"last_name":"Wang","first_name":"Merridy","rank_en":"OC"},{"last_name":"Wei","first_name":"Erqi","rank_en":"MC"},{"last_name":"Xia","first_name":"Michael","rank_en":"MC"},{"last_name":"Xu","first_name":"Haoyan","rank_en":"MC"},{"last_name":"Yang","first_name":"Victor-Yang","rank_en":"MC"},{"last_name":"You","first_name":"Dun Yi","rank_en":"OC"},{"last_name":"Zhan","first_name":"Allen","rank_en":"MC"}]
 `)
 
 const phase3NanaimoData = JSON.parse(`
-[{"last_name":"Boisclair","first_name":"Lily-Rose Yuri","rank_en":"LC"},{"last_name":"Fanmi","first_name":"Astrid","rank_en":"AC"},{"last_name":"Khaikanov","first_name":"Emil","rank_en":"LC"},{"last_name":"Liu","first_name":"Yihan","rank_en":"MC"},{"last_name":"Nan","first_name":"Hélène","rank_en":"MC"},{"last_name":"Sagna","first_name":"Henriette Marie Lourdes Safi","rank_en":"MC"},{"last_name":"Sun","first_name":"Weiqi Eric","rank_en":"LC"},{"last_name":"Xia","first_name":"Michael","rank_en":"LC"},{"last_name":"Xu","first_name":"Cecilia","rank_en":"MC"},{"last_name":"Xu","first_name":"Haoyan","rank_en":"MC"},{"last_name":"Xu","first_name":"Yike","rank_en":"MC"},{"last_name":"Xue","first_name":"Jing Wu","rank_en":"MC"},{"last_name":"Zhan","first_name":"Allen","rank_en":"MC"}]
+[{"last_name":"Dam","first_name":"Jassie","rank_en":"OC"},{"last_name":"Fanmi","first_name":"Astrid","rank_en":"AC"},{"last_name":"Han","first_name":"Yumo","rank_en":"LC"},{"last_name":"Huang","first_name":"Linxi","rank_en":"LC"},{"last_name":"Huang","first_name":"Xian Da Henry","rank_en":"MC"},{"last_name":"Liu","first_name":"Yihan","rank_en":"MC"},{"last_name":"Mederos Homem","first_name":"Joao Paulo","rank_en":"OC"},{"last_name":"Nan","first_name":"Hélène","rank_en":"MC"},{"last_name":"Sagna","first_name":"Henriette Marie Lourdes Safi","rank_en":"MC"},{"last_name":"Shao","first_name":"Yichen Cally","rank_en":"MC"},{"last_name":"Sun","first_name":"Weiqi Eric","rank_en":"LC"},{"last_name":"Zhang","first_name":"Shaohang","rank_en":"MC"},{"last_name":"Xu","first_name":"Cecilia","rank_en":"MC"},{"last_name":"Xu","first_name":"Yike","rank_en":"MC"},{"last_name":"Xu","first_name":"Chenfei","rank_en":"MC"},{"last_name":"Xue","first_name":"Jing Wu","rank_en":"MC"},{"last_name":"Zhu","first_name":"Yuchen","rank_en":"MC"}]
 `)
 
 const phase3HuronStaff = [
@@ -55,8 +55,8 @@ const phase3HuronStaff = [
         rank_fr: 'm1'
     },
     {
-        last_name: 'Xia-Wong',
-        first_name: 'Helene',
+        last_name: 'Chen',
+        first_name: 'Alexia',
         rank_en: 'PO2',
         rank_fr: 'm2'
     },
@@ -76,15 +76,16 @@ const phase3NanaimoStaff = [
         rank_en: 'PO1',
         rank_fr: 'm1'
     },
+
     {
-        last_name: 'Chen',
-        first_name: 'Alexia',
+        last_name: 'Sengupta',
+        first_name: 'Rohan',
         rank_en: 'PO2',
         rank_fr: 'm2'
     },
     {
-        last_name: 'Sengupta',
-        first_name: 'Rohan',
+        last_name: 'Xia-Wong',
+        first_name: 'Helene',
         rank_en: 'PO2',
         rank_fr: 'm2'
     },
