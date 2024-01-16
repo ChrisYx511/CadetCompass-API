@@ -2,4 +2,4 @@
 
 ## Description
 
-This is a simple API that facilitates the connection between CadetCompass and the FORTRESS SQL database once it's deployed on Azure App Service.
+This is the CadetCompass API that aims to connect the CadetCompass front end with a database. Currently, it aims to connect with a testing MongoDB database.
